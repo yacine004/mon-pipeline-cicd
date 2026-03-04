@@ -1,4 +1,4 @@
-# Image de base Python légère
+﻿# Image de base Python légère
 FROM python:3.11-slim
 
 # Dossier de travail dans le conteneur
@@ -16,5 +16,3 @@ EXPOSE 5000
 
 # Lancer l'application
 CMD ["python", "app.py"]
-
-
